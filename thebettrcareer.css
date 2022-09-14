@@ -1,0 +1,124 @@
+html{
+    -webkit-text-size-adjust: 100%;
+}
+/* Style the video: 100% width and height to cover the entire window */
+.bg {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+body{
+    margin: 0px;
+    background: #000;
+
+}
+#bg_container{
+    
+    overflow: hidden;
+}
+  
+  /* Add some content at the bottom of the video/page */
+#content {
+    position: absolute;
+    top: 0px;
+    color: #fff;
+    width: 100%;
+    padding: 30px;
+    
+    text-align: center;
+    white-space: nowrap;
+}
+  
+/*
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+  
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+*/
+.icon{
+    
+    font-family: "Source Sans Pro";
+    font-size: 22px;
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    width: auto;
+    text-align: center;
+    position: relative;
+}
+.actual{
+    font-family: "itc-bodoni-175";
+    line-height: 9rem;
+    text-transform: none;
+    letter-spacing: 0rem;
+    font-weight: ;
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+    font-size: ;
+    padding-top: 10px;
+    position: relative;
+}
+h1{
+    display: inline-block;
+    
+}
+#page-header{
+    font-size: 1000%;
+}
+#tag{
+    font-size: 120%;
+    padding-top:;
+}
+li{
+    text-align: -webkit-match-parent;
+    display: list-item;
+}
+#button{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    font-weight: 700;
+    font-family: "source sans pro";
+    font-style: normal;
+    line-height: 1em;
+    position: 100%;
+    text-rendering: optimizeLegibility;
+}
+.fcc_btn{
+    background-color: #fcfcfc;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #000;
+    text-shadow: none;
+    font-weight: 800;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+.fcc_btn:hover {
+    background-color: #bdc979;
+    transition: .5s ease-in-out;
+}
+.button2{
+    padding-top: 8%;
+}
+.button{
+    padding-top: 4%;
+}
